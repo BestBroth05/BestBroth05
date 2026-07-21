@@ -1,16 +1,43 @@
-## Hi there 👋
+## Hi there, I am Brayan Guillermo Olivares Peña 👋
 
 <!--
-**BestBroth05/BestBroth05** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+Software Engineer specializing in Flutter, Backend and AWS.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+4+ years building production systems across Healthcare, Transportation and IoT.
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+🛠 Tech Stack
+
+Flutter
+Node.js
+TypeScript
+AWS
+SQL Server
+Docker
+GitHub Actions
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 Featured Projects
+
+🚌 PathBus
+Transportation Management Platform
+
+🤖 Mabe
+AI Smart Refrigerator Platform
+
+🩺 Biosense
+BLE Medical Platform
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 Portfolio
+
+brayanolivares.com
+
+LinkedIn
+
+Email
 -->
