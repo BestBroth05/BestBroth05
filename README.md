@@ -1,8 +1,12 @@
 <h1 align="center">Hi, I'm Brayan Olivares 👋</h1>
 
 <h3 align="center">
-Software Engineer focused on Flutter, Bluetooth Low Energy, IoT, backend development, and AWS cloud architecture.
+Backend Software Engineer | Node.js · TypeScript · AWS · SQL
 </h3>
+
+<p align="center">
+Building production APIs, cloud infrastructure, and reliable systems — with additional experience in Flutter, BLE, and IoT when products need device connectivity.
+</p>
 
 <p align="center">
   <a href="https://brayanolivares.com">Portfolio</a>
@@ -16,18 +20,16 @@ Software Engineer focused on Flutter, Bluetooth Low Energy, IoT, backend develop
 
 ## About Me
 
-I'm a Software Engineer focused on building reliable applications that connect **mobile experiences, physical devices, backend services, and cloud infrastructure**.
+I'm a backend-focused Software Engineer with 4+ years building and operating production systems across transportation, healthcare, and IoT.
 
-My experience includes:
+I design Node.js/TypeScript APIs, relational databases, AWS infrastructure, and CI/CD pipelines. I currently lead software delivery in a 2-person team, define API contracts and cloud architecture, mentor a frontend developer, and work directly with clients.
 
-* Cross-platform applications built with Flutter.
-* Bluetooth Low Energy communication and device integration.
-* IoT and embedded-device workflows.
-* Backend services using Node.js and TypeScript.
-* Cloud infrastructure using AWS.
-* REST API design, authentication, deployment automation, testing, and technical documentation.
-
-I enjoy transforming complex technical requirements into maintainable, production-oriented software with clear architecture, testable components, and strong separation of responsibilities.
+Selected impact:
+* Sole backend engineer for a transportation platform serving **10+ cities** and **1,000+ daily transactions** per route
+* Integrating **OpenPay** and **NetPay** with **retries** and **idempotency**
+* Cut deployment overhead by **~75%** with GitHub Actions
+* Reduced BLE measurement errors from **15% to near-zero** across **100+** devices
+* Supported an AWS-backed IoT platform across **200+** connected units
 
 ---
 
@@ -35,139 +37,79 @@ I enjoy transforming complex technical requirements into maintainable, productio
 
 ### [Artifact Repository Service](https://github.com/BestBroth05/apt-repository-service)
 
-A production-oriented artifact publishing and delivery platform built with **Node.js, TypeScript, and AWS**.
+Serverless APT artifact publishing platform on AWS.
 
-It demonstrates:
+* Versioned publish/activate workflows
+* S3 + CloudFront distribution
+* Lambda + API Gateway
+* OpenAPI, tests, and Infrastructure as Code (AWS SAM)
 
-* Versioned artifact publishing workflows.
-* Secure upload and activation processes.
-* Amazon S3 object storage.
-* CloudFront distribution and cache invalidation.
-* Serverless API endpoints.
-* Artifact and publish management.
-* OpenAPI documentation.
-* Infrastructure as Code.
-* Automated testing and validation.
-* Architecture decisions and operational documentation.
-
-**Main technologies:** TypeScript, Node.js, AWS Lambda, API Gateway, Amazon S3, CloudFront, AWS SAM, and OpenAPI.
+**Stack:** TypeScript, Node.js, Lambda, API Gateway, S3, CloudFront, SAM, OpenAPI
 
 ---
 
 ### [Flutter Bluetooth Platform](https://github.com/BestBroth05/flutter-bluetooth-platform)
 
-A production-oriented Flutter platform for communicating with Bluetooth Low Energy devices through a clean, modular, and testable architecture.
+Production-oriented BLE platform with clean architecture.
 
-It demonstrates:
+* Real + simulator transport modes
+* Scan, connect, reconnect, GATT R/W + notifications
+* Packet framing, persistence, typed failures, tests
 
-* Real and simulated BLE transport modes.
-* Runtime Bluetooth permissions.
-* Device scanning, filtering, and deduplication.
-* Connection and reconnection workflows.
-* GATT service and characteristic discovery.
-* Characteristic reads and writes.
-* Notifications and indications.
-* Generic packet fragmentation and reassembly.
-* Local paired-device persistence.
-* Typed failures and lifecycle management.
-* Unit and widget testing.
-* Android and iOS platform integration.
+**Stack:** Flutter, Dart, BLE, BLoC, GetIt
 
-**Main technologies:** Flutter, Dart, Bluetooth Low Energy, Flutter BLoC, GetIt, SharedPreferences, and automated testing.
-
-> The UUIDs, packet format, simulated devices, and protocol examples included in this project are demonstration-only and are not associated with any commercial or medical device.
+> Demo UUIDs/protocols only — not tied to any commercial/medical device.
 
 ---
 
 ### [Personal Portfolio](https://brayanolivares.com)
 
-My personal website and central portfolio, featuring my professional experience, technical skills, and selected software engineering projects.
-
-It serves as the main entry point to explore:
-
-* My professional background.
-* Featured technical projects.
-* Cloud, backend, mobile, and IoT experience.
-* Architecture decisions and case studies.
-* Contact information and professional profiles.
+Professional experience, case studies, and contact.
 
 ---
 
 ## Technology Stack
 
-### Mobile, Frontend, and IoT
-
-<p>
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Bluetooth_LE-0082FC?style=flat-square&logo=bluetooth&logoColor=white" alt="Bluetooth Low Energy"/>
-  <img src="https://img.shields.io/badge/IoT-3C3C3D?style=flat-square&logo=internetofthings&logoColor=white" alt="IoT"/>
-</p>
-
 ### Backend and APIs
-
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
   <img src="https://img.shields.io/badge/REST_APIs-005571?style=flat-square" alt="REST APIs"/>
   <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI"/>
+  <img src="https://img.shields.io/badge/Payments-OpenPay%20%7C%20NetPay-111111?style=flat-square" alt="Payments"/>
 </p>
 
 ### Cloud and Infrastructure
-
 <p>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS"/>
   <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" alt="AWS Lambda"/>
   <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white" alt="Amazon S3"/>
   <img src="https://img.shields.io/badge/CloudFront-8C4FFF?style=flat-square" alt="CloudFront"/>
   <img src="https://img.shields.io/badge/API_Gateway-FF4F8B?style=flat-square&logo=amazonapigateway&logoColor=white" alt="API Gateway"/>
-  <img src="https://img.shields.io/badge/Infrastructure_as_Code-232F3E?style=flat-square" alt="Infrastructure as Code"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 </p>
 
-### Data, Testing, and Tools
-
+### Data
 <p>
   <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Automated_Testing-25A162?style=flat-square" alt="Automated Testing"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+</p>
+
+### Mobile & IoT
+<p>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
+  <img src="https://img.shields.io/badge/Bluetooth_LE-0082FC?style=flat-square&logo=bluetooth&logoColor=white" alt="Bluetooth Low Energy"/>
+  <img src="https://img.shields.io/badge/IoT-3C3C3D?style=flat-square&logo=internetofthings&logoColor=white" alt="IoT"/>
 </p>
 
 ---
 
-## Engineering Focus
+## Open to
 
-* Designing clean and maintainable software architectures.
-* Connecting Flutter applications with BLE and IoT devices.
-* Building secure and documented backend services.
-* Creating scalable cloud infrastructure on AWS.
-* Improving reliability through testing, typed errors, observability, and lifecycle management.
-* Documenting technical decisions so systems are easier to understand, maintain, and extend.
-
----
-
-## Currently Improving
-
-* AWS solution architecture.
-* Advanced Flutter and native mobile integration.
-* Bluetooth Low Energy and IoT platforms.
-* Distributed and event-driven systems.
-* System design.
-* Technical English and international collaboration.
-
----
-
-## Contact
-
-I'm open to software engineering opportunities involving:
-
-* Flutter and cross-platform mobile development.
-* Bluetooth Low Energy and IoT.
-* Backend and API development.
-* AWS cloud engineering.
-* Full-stack product development.
+Remote **Backend**, **Backend/Cloud**, and **Software Engineer** roles where I can own production systems and grow toward senior technical leadership.
 
 <p>
   <a href="https://brayanolivares.com">
