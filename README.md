@@ -5,6 +5,10 @@ Backend Software Engineer | Node.js · TypeScript · AWS · SQL
 </h3>
 
 <p align="center">
+<b>Mobile:</b> Flutter · Dart · Cubit · BLE
+</p>
+
+<p align="center">
 Building production APIs, cloud infrastructure, and reliable systems — with additional experience in Flutter, BLE, and IoT when products need device connectivity.
 </p>
 
